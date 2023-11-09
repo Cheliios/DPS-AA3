@@ -1,0 +1,10 @@
+Puntos dentro del juego :  
+
+Ponerle estilos a la alerta             FALTA
+Boton siguiente                         HECHO
+Los creditos del final                  HECHO
+Desarrollar una sorpresa al final       HECHO PERO PODRIA MEJORAR
+Agregar efectos de sonido               FALTA
+Darle nombre al juego                   HECHO
+colocarle una historia                  HECHO
+
