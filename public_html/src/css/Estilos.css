@@ -111,7 +111,7 @@ font-family: 'Press Start 2P', cursive; text-align: center;
 font-size: 60px;position: relative; top: 0%; left: -110%; padding-bottom: 2%;}
    
 
-.Tituloar_Juego_5 {font-family: 'Press Start 2P', cursive; text-align: center; font-size: 30px;}
+.Tituloar_Juego_5 {font-family: 'Press Start 2P', cursive; text-align: center; font-size: 60px;}
 
 .Contenedor_Mensaje_Star{height: 60%; width: 100%; left: 0%;  background: transparent;
 position: absolute; top: 20%; overflow: hidden; transition: 2.3s;}
@@ -322,7 +322,7 @@ margin-left: 12%; }
         left: 0px; top: -15%; transition: 2s;
         font-family: 'Press Start 2P', cursive;
         line-height: 70px;}
-
+    
     #Dificultad {display: flex; 
     justify-content: center; width: 100%;
     position: absolute; top: 45%; left: 0px; transition: 2s;}
@@ -341,13 +341,13 @@ margin-left: 12%; }
     text-align: center; z-index: 1000000000; display: none;}
     
     .GanastePantallaLvL2 {position: absolute; width: 100%; height: 100%; background: rgba(47, 255, 57, 0.63);
-        z-index: 900; top: 0%; display: flex; justify-content: center; align-items: center; flex-direction: column; display: none;}
+        z-index: 900; top: 0%; display: flex; justify-content: center; align-items: center; flex-direction: column; display: none; }
     
-    .GanastePantallaLvL2 h1 {font-family: 'Press Start 2P', cursive; color: rgb(10, 90, 16);
-        text-align: center; font-size: 2rem;}
+    .GanastePantallaLvL2 h1 {font-family: 'Press Start 2P', cursive; color: #dbe7dc;
+        text-align: center; font-size: 2rem;letter-spacing: 1px;line-height: 1.3;}
     
     .GanastePantallaLvL2 h3 {text-align: center; padding-left: 10%; padding-right: 10%; color: rgb(0, 0, 0);
-        font-family: 'Press Start 2P', cursive;}
+        font-family: 'Press Start 2P', cursive;letter-spacing: 1px;line-height: 1.3;}
 
 
     /*ESTILOS GENERALES DE LOS METIORITOS*/
@@ -383,7 +383,7 @@ margin-left: 12%; }
     /*CABEZARA DENTRO DEL JUEGO*/
     .Cabezeralvl2 {height: 70px; 
     border: 5px dashed rgb(0, 119, 255); 
-    background: rgba(255, 255, 255, 0.363); 
+    background: rgba(255, 255, 255, 0.712); 
     border-bottom: none; display: flex; 
     align-items: center; position: relative; }
     
@@ -391,13 +391,13 @@ margin-left: 12%; }
     .Tiempolvl2 {display: flex; align-items: center;
         flex-direction: column;
         width: 14%; height: 70%; color: black; 
-        font-size: 13px; line-height: 1vh ;   }
+        font-size: 15px; line-height: 1vh ;  font-weight: bold; }
     
     /*ESTILOS DEL SPAN Y DEL TEXTO DE PUNTAJE*/
     .Puntajelvl2 {display: flex; align-items: center; 
      flex-direction: column; margin-top: 2%;
     width: 14%; height: 100%; color: black; 
-    font-size: 13px; line-height: 7px;}
+    font-size: 15px; line-height: 7px;font-weight: bold;}
     
     /*ESTILOS DEL BOTON DE PAUSE*/
     .Pauselvl2 {width: 20%; height: 70%; font-size: 14px;

@@ -232,7 +232,7 @@ function JUEGOlvl2(){
                         setInterval (Cuenta_rglvl2, 1000)}
 
                         setTimeout(ESPERARlvl2, 350)}//SE EJECUTARA EN UN LAPSO DE 350, DESPUES DE PRESIONAR EL BOTON
-
+                        
 
             //ESTA FUNCION CONTIENE EL REANUDE Y PAUSE DEL BOTON
             function DETENER_JUEGOlvl2 (){
