@@ -54,22 +54,36 @@ margin-left: auto; margin-right: auto; margin: auto; margin-top: -3%; }
 
 #Reglas{position: relative; width: 100%; top: 120%;}
 
-.Titulo_Reglas{font-size: 2.4VW; position: relative; top: -20%; left: 2%; font-family: 'Press Start 2P', cursive;}
+.Titulo_Reglas{font-size: 2.4VW; position: relative; top: -20%; left: 2%; font-family: 'Press Start 2P', cursive; white-space: nowrap;
+    overflow: hidden; animation: maquina-escribir 4s steps(30) infinite;
+}
 
-.Img_reglas {margin-top: 1%; margin-left: 2%; width: 34%}
+@keyframes maquina-escribir {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
 
-.Reglas_estilos {background: rgba(248, 248, 248, 0.521); color: black; border: 0.19vw solid black; 
-width: 40%; height: auto; position: absolute;   left: 58% ; font-size: 1.14vw;}
+.Img_reglas {margin-top: 1%; margin-left: 10%; width: 34%; border: 5px; border-radius: 10px;}
 
-#R1 {top: -4%;}
-#R2 {top: 38%;}
-#R3_4 {top: 75%;}
+.Reglas_estilos {background: rgba(248, 248, 248, 0.521); color: black; border: 3px solid rgb(179, 5, 127); border-radius: 15px;
+width: 40%; height: auto; position: absolute;   left: 53% ; font-size: 1.14vw; font-family: Lucida Sans;}
+
+#R1 {top: 9%;}
+#R2 {top: 49%;}
+#R3 {top: 81%;}
 .Reglas_estilos h3  {margin-left: 3%; margin-right: 3%; text-align: center;} 
-.Reglas_estilos p  {margin-left: 3%; margin-right: 3%; text-align: center;} 
+.Reglas_estilos p  {margin-left: 3%; margin-right: 3%; text-align: center; } 
 
-.Listo {width: 34%; height: 8vh; background: rgb(100, 21, 146); display: flex; 
-align-items: center; justify-content: center; cursor: pointer; position: relative; left: 2%; top: 2vw; font-size: 1.5vw;
+
+.Listo {width: 40%; height: 6vh; background: rgb(100, 21, 146); display: flex; border: 3px; border-radius: 15px;
+align-items: center; justify-content: center; cursor: pointer; position: relative; left: 7%; top: 1vw; font-size: 1.5vw;
 font-family: 'Inconsolata', monospace;}
+
+
 
 
 
