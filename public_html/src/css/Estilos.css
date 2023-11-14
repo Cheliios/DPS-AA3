@@ -190,10 +190,11 @@ font-family: 'Inconsolata', monospace;}
 }   
 
 #VOLUMEN{
-    font-size: 90%; 
+    font-size: 250%; 
 }
 #PAUSE {
     display: none;
+    font-size: 200%;
 }
 .BOTONES_2 {
     display: flex; 
