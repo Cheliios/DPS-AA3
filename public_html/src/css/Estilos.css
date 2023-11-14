@@ -77,30 +77,133 @@ font-family: 'Inconsolata', monospace;}
 
 #Seccion_2 {position: relative; top: 10%;}/*Este es el contenedor de laseccion 2*/
 
-.Titulo_historia{font-family: 'Press Start 2P', cursive; /*ESTE ES EL TITULO DE LA SEGUNDA SECCION*/
-text-align: left; font-size: 40px; position: absolute; 
-left: -100%;}
+/*ESTE ES EL TITULO DE LA SEGUNDA SECCION*/
+.Titulo_historia{
+    font-family: 'Press Start 2P', cursive;
+    border-right: 6px solid #ffffff;
+    width: 55rem;
+    text-wrap: nowrap;
+    text-align: left; 
+    font-size: 40px; 
+    position: absolute; 
+    left: -100%;
+    animation: typing 6s steps(22) infinite;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }  
+}
+@keyframes transparent {
+    50% {
+        border-color: transparent;
+    }
+}
+/*ESTA ES LA IMAGEN DEL METIORITO CALLENDO A LA TIERRA*/
+.Imgane_metiorito{
+    position: absolute; 
+    margin-top: 15%;
+    margin-left: 10%;
+    border-radius: 15px; 
+    width:34%;
+}
+/*ESTE ES EL CONENTENEDOR DE LA HISTORIA*/
+.Contenedor_Historia{
+    width: 40%;     
+    background: rgba(255, 255, 255, 0.659);
+    color: black; 
+    padding-top: 2%; 
+    padding-right: 2%;
+    padding-left: 2%; 
+    padding-bottom: 2%; 
+    position: absolute; 
+    margin-top: 15%;
+    margin-left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 15px;
+    border:3px solid cyan;
+}
 
-.Imgane_metiorito{position: absolute; top: 210px; left: -100%; width:600px}/*ESTA ES LA IMAGEN DEL METIORITO CALLENDO A LA TIERRA*/
+/*ESTE ES EL BOTON DE LA HISTORIA*/
+.Boton_preparado{
+    cursor: pointer;
+    color: white;
+    width: 70%; 
+    height: 6vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 #474444;
+    transition: .5s;
+    text-align: center;
+    
+}
+.iconi01 {
+    opacity: 0;
+    position: relative;
+    top: 0%;
+    transform: translatex(-500%);
+}
+.botin01, .iconi01 {
+    
+    
+    transition: opacity 0.3s; /* Agrega transición para un cambio suave */
+}
+.iconi01 {
+    opacity: 0; /* Inicialmente, el icono no es visible */
+}
+.Boton_preparado:hover .botin01 {
+    opacity: 0;
+}
+.Boton_preparado:hover .iconi01 {
+    opacity: 1;
+}
+.Boton_preparado:active{
+    transform: translateY(5px);
+    box-shadow: 0 5px 0 #474444;
+}   
 
-.Contenedor_Historia{width: 40%;     /*ESTE ES EL CONENTENEDOR DE LA HISTORIA*/
-background: rgba(255, 255, 255, 0.659);
-color: black; padding-top: 2%; padding-right: 2%;
-padding-left: 2%; padding-bottom: 2%; float: right;
-position: relative; right: 100%; top: 194px;}
+.Contenedor_narracion {
+    width: 9vh; 
+    height: 9vh; 
+    background: black; 
+    color: white; 
+    border-radius: 5rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+    margin-left: 10%;
+    transition: 0.5s;
+}
+.Contenedor_narracion:hover {
+    border-color: white;
+    color: #000000;
+    box-shadow: inset 0 -6.2em 0 0 #fdfdfb;
+    
+}   
 
-.Boton_preparado{width: 70%; height: 6vh; /*ESTE ES EL BOTON DE LA HISTORIA*/
-background: black; display: flex; font-size: 1.2vw;
-justify-content: center; align-items: center;
-cursor: pointer; color: white; font-family: 'Inconsolata', monospace;
- }
-
-.Contenedor_narracion {width: 9vh; height: 9vh; background: black; color: white; border-radius: 0.5rem;
-display: flex; justify-content: center; align-items: center; cursor: pointer; margin-left: 10%;}
-#VOLUMEN{font-size: 90%; }
-#PAUSE {display: none;}
-.BOTONES_2 {display: flex; align-items: center;  margin-top: 5%; height: 9vh; width: 50%; overflow: hidden;
-margin: auto;}
+#VOLUMEN{
+    font-size: 90%; 
+}
+#PAUSE {
+    display: none;
+}
+.BOTONES_2 {
+    display: flex; 
+    align-items: center;  
+    margin-top: 5%; 
+    height: 9vh; 
+    width: 50%; 
+    overflow: hidden;
+    margin: auto;
+}
 
 /*TERCERA SECCION------------------------------------------------------------------------------------------------------*/
 
