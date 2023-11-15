@@ -132,7 +132,9 @@ font-family: 'Press Start 2P', cursive; text-align: center;
 font-size: 60px;position: relative; top: 0%; left: -110%; padding-bottom: 2%;}
    
 
-.Tituloar_Juego_5 {font-family: 'Press Start 2P', cursive; text-align: center; font-size: 60px;}
+.tituloprincipal-2{font-family: 'Press Start 2P', cursive; text-align: center;
+    
+}
 
 .Contenedor_Mensaje_Star{height: 60%; width: 100%; left: 0%;  background: transparent;
 position: absolute; top: 20%; overflow: hidden; transition: 2.3s;}
