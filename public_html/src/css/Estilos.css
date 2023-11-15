@@ -349,7 +349,49 @@ margin-left: 12%; }
     .Texolvl2 {font-size: 36px; position: relative;
         left: 0px; top: -15%; transition: 2s;
         font-family: 'Press Start 2P', cursive;
-        line-height: 70px;}
+        line-height: 70px;
+        display: block;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 38ch;
+        animation: typing 5s steps(38),
+        blink .5s infinite step-end alternate;
+        overflow: hidden;
+        ;
+    }
+    @keyframes typing{
+        from{
+            width: 0;
+        }
+    }
+    @keyframes blink{
+        50%{
+            border-color: transparent;
+        }
+    }
+    #titlv2dif{
+        font-size: 36px; position: relative;
+        left: 0px; top: -15%; transition: 2s;
+        font-family: 'Press Start 2P', cursive;
+        line-height: 70px;
+        display: block;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 18ch;
+        animation: typing 5s steps(18),
+        blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+    @keyframes typing{
+        from{
+            width: 0;
+        }
+    }
+    @keyframes blink{
+        50%{
+            border-color: transparent;
+        }
+    }
     
     #Dificultad {display: flex; 
     justify-content: center; width: 100%;
