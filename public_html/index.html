@@ -38,43 +38,40 @@
         </section>
         <!--SECCION - 3 ------------------------------------------------------------------------------------------------------->
 
-        <section id="Reglas" class="">
-            <h1 class="Titulo_Reglas">Antes de empezar lee,<br><br> las reglas.</h1><br>
-            <img src="src/img/JUEGO.jpg" class="Img_reglas">
+        <section  id="Reglas">
+            <h1 class="Titulo_Reglas">Leer con atención las <br><br>siguientes reglas.</h1>
+            <img src="src/img/JUEGO.jpg"  class="Img_reglas">
             <div class="Reglas_estilos" id="R1">
-                <h3>REGLA : 1</h3>
-                <p>Los puntos marcados representan tu progreso y aumentarán cuando desvíes meteoritos de la Tierra al
-                    pasar el cursor sobre ellos. Al alcanzar los puntos requeridos, ganas automáticamente. Sin embargo,
-                    ten en
-                    cuenta que los meteoritos atacan de manera impredecible, así que mantente alerta.
+                <h3>REGLA 1</h3>
+                <p>
+                    Lo que se encuentra señalado son los puntos, que, según tu progreso, se irán incrementando 
+                    al desviar meteoritos de la tierra. Esto ocurre al pasar el cursor sobre el meteorito que se acerca. 
+                    Si los puntos obtenidos llegan a 30, obtienes una victoria automática. Sin embargo, recuerda que los meteoritos 
+                    son impredecibles en su ataque, así que debes estar atento a su llegada.
                 </p>
             </div>
 
 
             <div class="Reglas_estilos" id="R2">
-                <h3>REGLA : 2</h3>
-                <p>El tiempo que se señala es el límite máximo que puede aguantar la defensa, siendo unos 60 segundos,
-                    en los que
-                    el jugador debe cumplir el límite de puntos o sera un GAMER OVER automático, asi que recuerda ser
-                    rápido recolectando
+                <h3>REGLA 2</h3>
+                <p>El tiempo que se señala es el límite máximo que puede aguantar la defensa, siendo unos 60 segundos, en los que
+                    el jugador debe cumplir el límite de puntos o será un  <span style="font-weight: bold;">GAME OVER</span> automático, así que recuerda ser rápido recolectando
                     puntos.
                 </p>
             </div>
 
 
-            <div class="Reglas_estilos" id="R3_4">
-                <h3>REGLA : 3 y 4</h3>
-                <p>Estos son los meteoritos que debes evitar que ingresen a la tierra, por lo general suelen ser rápidos
-                    así que
-                    recuerda: no te descuides o confies por que en el momento que lo hagas, estos llegarán a la tierra,
-                    es por ello
-                    que una raya señala el límite por el cual ya es inevitable nuestra salvación (GAME OVER)
+            <div class="Reglas_estilos" id="R3">
+                <h3>REGLA  3 </h3>
+                <p>Estos son los meteoritos que debes evitar que ingresen a la tierra, por lo general suelen ser rápidos así que 
+                    recuerda: no te descuides o confíes porque en el momento que lo hagas, estos llegarán a la tierra, es por ello
+                    que una raya señala el límite por el cual ya es inevitable nuestra salvación  <span style="font-weight: bold;">GAME OVER</span>.
                 </p>
             </div>
 
-            <button class="Listo" onclick="Mover_2()">
-                ¿Estas listo?
-            </button>
+            <div class="Listo" onclick="Mover_2()">
+                ¿Estás listo?
+            </div>
 
 
         </section>
@@ -84,26 +81,20 @@
         <!--SECCION - 4 ------------------------------------------------------------------------------------------------------->
 
         <section id="Seccion_2">
-            <h1 class="Titulo_historia" id="Titulo_historia">Todo empezo cuando...</h1>
+            <h1 class="Titulo_historia" id="Titulo_historia">Todo empezó cuando...</h1>
             <div class="Contenedor_Historia" id="Mensaje">
                 <h3 style="margin-top: -1%;">CAPÍTULO I: NUESTRA SALVACIÓN</h3>
-                <h4>En cierto día, las noticias de todo el mundo anunciaron que muy pronto se acercarían meteoritos de
-                    gran
-                    tamaño a la tierra y que solo era cuestión de horas para que comenzaran a llegar; el resultado de
-                    esto fue inmediato ya que
-                    miles de personas comenzaron a alertarse y a hacer disturbios, en centros comerciales y areas
-                    publicas, para que el gobierno les
-                    diera alguna respuesta; pero el gobierno ya tenía un plan de contingencia, ya que ellos se habían
-                    enterado de la llegada de estos con días de antelación
-                    preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que consistía en los
-                    proyectiles más letales de la tierra y nuestra única salvación
-                </h4>
+                "En cierto día, las noticias de todo el mundo anunciaron que muy pronto se acercarían meteoritos de gran tamaño a la Tierra y que solo era cuestión de horas para que comenzarán a llegar; el resultado de esto fue inmediato ya que miles de personas comenzaron a alertarse y a hacer disturbios, en centros comerciales y áreas públicas, para que el gobierno les diera alguna respuesta; pero el gobierno ya tenía un plan de contingencia, ya que ellos se habían enterado de la llegada de estos con días de antelación preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que consistía en los proyectiles más letales de la Tierra y nuestra única salvación."
+                <br>
+                <br>
                 <div class="BOTONES_2">
-                    <div class="Boton_preparado" onclick="Mover_3()">
-                        ¿Estas preparado?
+                    <div class="Boton_preparado" onclick="Mover_3()">                    
+                        <span class="botin01">¿Estás preparado?</span>
+                        <span class="iconi01"><i class="fas fa-play"></i></span>                        
                     </div>
+
                     <div class="Contenedor_narracion" id="Contenedor_narracion">
-                        <i class="fas fa-play" id="VOLUMEN"></i>
+                        <i class="fas fa-headphones" id="VOLUMEN"></i>
                         <i class="fas fa-pause" id="PAUSE"></i>
                     </div>
                 </div>
@@ -115,8 +106,13 @@
 
         <!--SECCION QUE CONTIENE TODOS LOS ELEMENTOS-->
         <section class="Seccion_Juego contenido" id="Seccion_Juego">
-
-            <h1 class="Tituloar_Juego_5">¡ES HORA DE JUGAR!</h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br><br>
+            <h1 class="tituloprincipal-2" style="font-size: 28px;">La Tierra está en peligro. Toma el control,</h1> <h2 class="tituloprincipal-2"style="font-size: 21px;">¡derriba esos meteoritos y protege nuestro planeta!</h2> 
 
             <!--CABEZERA DEL JUEGO------------------------------------------------------->
             <div id="NIVEL_01">
@@ -154,7 +150,7 @@
                     <div class="Limite"></div>
 
                     <!--ELEMENTOS DE START---------------------------------------------------------->
-
+        
                     <!--Pantalla principal al ingresar al juego START-->
                     <div class="Start" id="Start">
                         <div class="Contenedor_Mensaje_Star" id="Contenedor_Mensaje_Star">
@@ -195,19 +191,21 @@
             </div><!--FIN DEL JUEGO-->
             </div>
 
+            
 
 
             <section id="NIVEL_02">
                 <!--SEGUNDO LVL------------------------------------------------------------------------>
                 <!--Contenedor-Cabezera-->
-                <div class="Cabezeralvl2 Contenedorlvl2">
+                <div class="Cabezeralvl2 Contenedorlvl2" >
                     <div class="Tiempolvl2">
                         <h3>TIEMPO</h3><span id="Tiempolvl2">60</span>
                     </div><!--Tiempo con su span para la el final del minuto-->
                     <div class="Puntajelvl2">
                         <h3>PUNTAJE</h3><span id="Puntajelvl2">0 / 34</span>
                     </div><!--Puntaje con su span que indica el puntaje-->
-                    <div class="Pauselvl2" id="Pauselvl2">
+                    
+                <div class="Pauselvl2" id="Pauselvl2">
                         <h3>PAUSE / REANUDA</h3>
                     </div><!--Boton de pause-->
                 <div class="control_vol" id="control_volumen">
@@ -235,8 +233,8 @@
                         <h1 class="Texolvl2" id="Texolvl2">¿LISTO PARA SALVAR<br> EL MUNDO? -> LVL: 2 </h1>
                         <div id="Dificultad">
                             <img src="src/img/Tiburon.gif" width="18%">
-                            <h1 style="font-size: 27px; font-family: 'Press Start 2P', cursive;">&nbsp;Dificultad :
-                                Tiburon&nbsp;</h1>
+                            <h1 class="Texolvl2" id="Texolvl2" style="font-size: 27px; font-family: 'Press Start 2P', cursive;">&nbsp;Dificultad :
+                                Tiburón&nbsp;</h1>
                             <img src="src/img/Tiburon.gif" width="18%">
                         </div>
                         <!--Titulo de la seccion start-->
@@ -246,6 +244,7 @@
                             <span id="RGBlvl2"></span>
                         </div><!--Span que contiene el conteo-->
                     </div>
+                
 
                     <!--PANTALLA AL PRECIONAR PAUSE---------------------------------------------->
                     <div class="Pausa_Pantallalvl2" id="Pausa_Pantallalvl2">
@@ -254,16 +253,14 @@
                     </div>
                     <div class="GanastePantallaLvL2" id="GanastePantallaLvL2">
 
-                        <h1>LOGRO DESBLOQUEADO:<br> AGILIDAD EXTREMA</h1>
-                        <h3>AHORA ESTAS MÁS CERCA DE COMPLETAR ESTE JUEGO, ASÍ QUE PREPARATE PARA LO PEOR, RECUERDA QUE
-                            LOS
-                            METEORITOS NO SON ALGO PARA TOMÁRSELO A LA LIGERA Y MÁS AUN EN EL SIGUIENTE NIVEL, EN DONDE
-                            LA DIFICULTAD
-                            AUMENTA EXPONENCIALMENTE
-                        </h3>
-                        <div style="display: flex; width: auto;">
-                            <script src="src/js/Ejecucion2.js"></script>
-                        </div>
+                    <h1>LOGRO DESBLOQUEADO:<br> AGILIDAD EXTREMA</h1>
+                    <h3>AHORA ESTÁS MÁS CERCA DE COMPLETAR  ESTE JUEGO, ASÍ QUE PREPARATE PARA LO PEOR, RECUERDA QUE LOS 
+                        METEORITOS NO SON ALGO PARA TOMÁRSELO A LA LIGERA Y MÁS AUN EN EL SIGUIENTE NIVEL, EN DONDE LA DIFICULTAD
+                            AUMENTA EXPONENCIALMENTE 
+                    </h3>
+                    <div style="display: flex; width: auto;">
+                        <script src="src/js/Ejecucion2.js"></script>
+                    </div>
                     </div><!--FIN DEL JUEGO-->
                 </div>
             </section>
@@ -285,7 +282,7 @@
                     <button class="button" id="button">Menu</button>
                     <!--Boton de pause-->
                     <button class="Pauselvl3" id="Pauselvl3"><span class="mdi mdi-pause">⏸</span></button>
-                    <div class="control_vol" id="control_volumen">
+                    <div class="control_vol_noemi" id="control_volumen">
                         <span class="letra_vol">Volumen</span>
                         <input type="range"  id="sound" min="0" max="100" value="50" class="drag__bar" id="myRange">
                     </div>
@@ -390,18 +387,12 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="Nada" id="Nada">
-                    <h2>Una vez completes este nivel, se habilitará la opcion "SIGUIENTE".</h2>
-                    <p>Recuerda que los niveles son progresivos
-                        y mejorarán tu nivel de reacción ante estímulos y mucho más importante, te dará una gran
-                        sorpresa al final, así que recuerda
-                        no perdértela y no parar de intentar
-                    </p>
-                </div>
-                <div class="NEXT" id="NEXT">
-                    <h2>SIGUIENTE NIVEL&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></h2>
-                </div>
+                
+            <div class="Nada" id="Nada"><h2>Una vez completes este nivel, se habilitará la opción "SIGUIENTE".</h2><p>Recuerda que los niveles son progresivos
+                y mejorarán tu nivel de reacción ante estímulos y mucho más importante, te dará una gran sorpresa al final, así que recuerda
+                no perdértela y no parar de intentar 
+            </p></div>
+            <div class="NEXT" id="NEXT"><h2>SIGUIENTE NIVEL&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></h2></div>
             </div>
 
 

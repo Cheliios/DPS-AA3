@@ -70,7 +70,7 @@ function JUEGOlvl2(){
                 document.getElementById("GanastePantallaLvL2").style.display = "flex"
                 Swal.fire({
                     title : 'FELICIDADES POR SUPERAR <br> EL NIVEL <br><br> <img src="src/img/Check.png" width = "120px"><br>',
-                    html: '¿VERDAD QUE FUE DIFÍCIL?. Prepárate para el siguiente nivel que las cosas van a empeorar. Agradecemos tu dedicación en pasar este nivel, esperemos que puedas seguir defendiendo la tierra de esa manera y mejores tu habilidad de reacción ',
+                    html: '¿VERDAD QUE FUE DIFÍCIL? Prepárate para el siguiente nivel que las cosas van a empeorar. Agradecemos tu dedicación en pasar este nivel, esperemos que puedas seguir defendiendo la tierra de esa manera y mejores tu habilidad de reacción ',
                     icon: 'sucess',
                     confirmButtonText: 'QUIERO CONTINUAR',
                     width: '50%',
@@ -232,7 +232,7 @@ function JUEGOlvl2(){
                         setInterval (Cuenta_rglvl2, 1000)}
 
                         setTimeout(ESPERARlvl2, 350)}//SE EJECUTARA EN UN LAPSO DE 350, DESPUES DE PRESIONAR EL BOTON
-
+                            
             
             // Control de Volumen   
             var input = document.getElementById("sound");
