@@ -23,21 +23,20 @@
         <!--SECCION - 1 ------------------------------------------------------------------------------------------------------->
 
         <section class="Seccion_01" id="Seccion_01"  >
-            <div class="Contenedor_RC" id="Contenedor_RC" onclick="Graficos_fondo()">
+            <div class="Contenedor_RC parpadeo" id="Contenedor_RC" onclick="Graficos_fondo()">
                 <div class="Recursos" id="Recursos">
-            
                 </div>
             </div>
-            <section>
+            <section class="contenido parpadeo titulo">
                 <h1 class="Nombre">IRON FIST</h1>
-                <h1 class="Texto_Principal">¿LISTO PARA DEFENDER<br> EL PLANETA?</h1>
+                <h1 class="Texto_Principal ">¿LISTO PARA DEFENDER<br> EL PLANETA?</h1>
             </section>
-            <button class="Boton" id="Juego" onclick="Mover()">JUGAR</button>
-        
+            <button class="Boton boton_jugar titulo_boton" id="Juego" onclick="Mover()">JUGAR</button>
+            
         </section>
     <!--SECCION - 3 ------------------------------------------------------------------------------------------------------->
 
-        <section  id="Reglas">
+        <section  id="Reglas" class="">
             <h1 class="Titulo_Reglas">Antes de empezar lee,<br><br> las reglas.</h1>
             <img src="src/img/JUEGO.jpg"  class="Img_reglas">
             <div class="Reglas_estilos" id="R1">
@@ -104,7 +103,7 @@
             <!--SECCION - 5 ------------------------------------------------------------------------------------------------------->
 
             <!--SECCION QUE CONTIENE TODOS LOS ELEMENTOS-->
-            <section class="Seccion_Juego" id="Seccion_Juego">
+            <section class="Seccion_Juego contenido" id="Seccion_Juego">
 
                 <h1 class="Tituloar_Juego_5" >¡ES HORA DE JUGAR!</h1>
 
@@ -115,9 +114,12 @@
                 <div class="Tiempo"><h3>TIEMPO</h3><span id="Tiempo">70</span></div><!--Tiempo con su span para la el final del minuto--> 
                 <div class="Puntaje"><h3>PUNTAJE</h3><span id="Puntaje">0&nbsp;/&nbsp;27</span></div><!--Puntaje con su span que indica el puntaje-->
                 <div class="Pause" id="Pause"><h3>PAUSE / REANUDA</h3></div><!--Boton de pause-->
-            
+                <div class="control_vol" id="control_volumen">
+                    <span class="letra_vol">Volumen</span>
+                    <input type="range"  id="sound" min="0" max="100" value="50" class="drag__bar" id="myRange">
                 </div>
-        
+                </div>
+                
                 <!--CCMIENZO DEL JUEGO------------------------------------------------------>
         
                 <!--Contenedor general del juego-->
@@ -187,6 +189,10 @@
                 <div class="Tiempolvl2"><h3>TIEMPO</h3><span id="Tiempolvl2">60</span></div><!--Tiempo con su span para la el final del minuto--> 
                 <div class="Puntajelvl2"><h3>PUNTAJE</h3><span id="Puntajelvl2">0 / 34</span></div><!--Puntaje con su span que indica el puntaje-->
                 <div class="Pauselvl2" id="Pauselvl2"><h3>PAUSE / REANUDA</h3></div><!--Boton de pause-->
+                <div class="control_vol" id="control_volumen">
+                    <span class="letra_vol">Volumen</span>
+                    <input type="range"  id="sound" min="0" max="100" value="50" class="drag__bar" id="myRange">
+                </div>
             </div>
             
             <!--CCMIENZO DEL JUEGO------------------------------------------------------>
@@ -251,6 +257,10 @@
                         <!--Boton de pause-->
                         <div class="Pauselvl3" id="Pauselvl3">
                             <h3>PAUSE / REANUDAR</h3>
+                        </div>
+                        <div class="control_vol" id="control_volumen">
+                            <span class="letra_vol">Volumen</span>
+                            <input type="range"  id="sound" min="0" max="100" value="50" class="drag__bar" id="myRange">
                         </div>
                     </div>
             

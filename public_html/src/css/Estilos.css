@@ -31,6 +31,7 @@ left: 44%; top: 4%; cursor: pointer;}
     text-align: center;
     position: relative;
     top: -12%;
+    line-height: 1.6;
 }
 
 .Nombre{ /*ESTE ES LA PREGUNTA DEBAJO DEL NOMBRE*/
@@ -44,9 +45,9 @@ left: 44%; top: 4%; cursor: pointer;}
 }
 
 .Boton {width: 20vw; height: 4vw; background: rgb(144, 90, 196); /*Este es el boton de JUGAR*/
-cursor: pointer;font-family: 'Press Start 2P', cursive;
-color: white; border-radius: 2px; border: none;
-margin-left: auto; margin-right: auto; margin: auto; margin-top: -3%; }
+cursor: pointer;font-family: 'Press Start 2P'; border-radius: 2px; border: none;
+margin-left: auto; margin-right: auto; margin: auto; margin-top: -3%;
+ }
 
 /*SECCION REGLAS ------------------------------------------------------------------------------------------------------*/
 
@@ -745,4 +746,126 @@ margin-left: 12%; }
         display: table-cell;
         vertical-align: middle;
         font-family: 'Press Start 2P', cursive;
+    }
+
+    .titulo{
+        text-shadow: 5px 5px 5px white;
+    }
+    .titulo_boton{
+        text-shadow: 0px 5px 5px cornflowerblue;
+        &:hover {
+            text-shadow: 0px 5px 5px red;
+        }
+    }
+    
+    .boton_jugar{
+        color: cyan;
+        background-color: orange;
+        border-style: groove ;
+        border-color: red;
+        border-radius: 50px 50px 50px 50px;
+        width: 500px;
+        height: 100px;
+        font-size: xx-large;
+        margin-top: 10px;
+        box-shadow: 0px 0px 50px 60px rgba(255, 7, 7, 0.5);
+        &:hover {
+            border-color: rgb(0, 4, 255);
+            color: orange;
+            box-shadow: 0px 0px 50px 60px rgba(7, 11, 255, 0.5);
+            background-color: aqua;
+        }
+        
+    }
+    
+    
+
+    @keyframes parpadeo {
+        0% {
+        color: orange;
+        }
+        25% {
+        color: blue;
+        }
+        50% {
+        color:yellow;
+        }
+        75% {
+        color: red;
+        }
+        100% {
+        color: cyan;
+        }
+    }
+
+    .parpadeo {
+        animation: parpadeo 1s infinite;
+    }
+
+    .control_vol {
+        width: 200px;
+        height: 35px;
+        background-color: cyan;
+        border-style: groove;
+        border-radius: 5px 5px 5px 5px;
+        border-color: orange;
+        justify-content: center;
+        &:hover {
+            background-color: orange;
+            border-color: cyan;
+        }
+    }
+    .drag__bar {
+        -webkit-appearance: none;
+        width: 90%;
+        height: 18px;
+        border-radius: 5px;
+        background: orange;
+        outline: none;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    
+    .drag__bar:hover {
+        background: cyan;
+    }
+
+    .drag__bar::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        position: relative;
+        appearance: none;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: cyan;
+        cursor: pointer;
+        box-shadow:0px 0px 11px 8px rgba(0,0,0,0.26);
+        background-size: 45%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .drag__bar::-webkit-slider-thumb:hover {
+        background: orange;
+    }
+    
+    .drag__bar::-moz-range-thumb {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: orange;
+        cursor: pointer;
+        box-shadow:0px 0px 11px 8px rgba(0,0,0,0.26);
+        background-size: 45%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .letra_vol{
+        font-family: 'Press Start 2P'; 
+        font-size: 15px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 50px;
     }

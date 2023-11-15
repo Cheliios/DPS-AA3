@@ -233,6 +233,19 @@ function JUEGOlvl2(){
 
                         setTimeout(ESPERARlvl2, 350)}//SE EJECUTARA EN UN LAPSO DE 350, DESPUES DE PRESIONAR EL BOTON
 
+            
+            // Control de Volumen   
+            var input = document.getElementById("sound");
+
+            // Asigna un evento de cambio al elemento de entrada
+            input.addEventListener("change", function() {
+                        
+            // Obtiene el valor actual del elemento de entrada
+            var valor = input.value;
+                        
+            // Establece el volumen del audio
+            document.getElementById("Fondo_Ciberpunk").volume = valor / 100;
+            });
 
             //ESTA FUNCION CONTIENE EL REANUDE Y PAUSE DEL BOTON
             function DETENER_JUEGOlvl2 (){
