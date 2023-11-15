@@ -221,21 +221,11 @@ html body {
     top: 194px;
 }
 
-.Boton_preparado {
-    width: 70%;
-    height: 6vh;
-    /*ESTE ES EL BOTON DE LA HISTORIA*/
-    background: black;
-    display: flex;
-    font-size: 1.2vw;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-}
+.Boton_preparado{width: 70%; height: 6vh; /*ESTE ES EL BOTON DE LA HISTORIA*/
+background: black; display: flex; font-size: 1.2vw;
+justify-content: center; align-items: center;
+cursor: pointer; color: white; font-family: 'Inconsolata', monospace;
+ }
 
 .Contenedor_narracion {
     width: 9vh;
@@ -272,24 +262,12 @@ html body {
 
 
 
-.Titulo-Jugar {
-    text-align: center;
-    /*TITULO DE LA ULTIMA SECCION*/
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    font-size: 60px;
-    position: relative;
-    top: 0%;
-    left: -110%;
-    padding-bottom: 2%;
-}
+.Titulo-Jugar{text-align: center; /*TITULO DE LA ULTIMA SECCION*/
+font-family: 'Press Start 2P', cursive; text-align: center;
+font-size: 60px;position: relative; top: 0%; left: -110%; padding-bottom: 2%;}
+   
 
-
-.Tituloar_Juego_5 {
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    font-size: 30px;
-}
+.Tituloar_Juego_5 {font-family: 'Press Start 2P', cursive; text-align: center; font-size: 60px;}
 
 .Contenedor_Mensaje_Star {
     height: 60%;
@@ -604,65 +582,32 @@ html body {
 }
 
 /*RELOJ*/
-.Fecha {
-    display: flex;
-    width: 350px;
-    margin-bottom: 3%;
-    height: 50px;
-    background: rgba(191, 44, 228, 0.274);
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px;
-}
-
-.Fecha p {
-    font-size: 23px;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-}
-
-.Hora {
-    display: flex;
-    width: 350px;
-    height: 100px;
-    background: rgba(191, 44, 228, 0.274);
-    align-items: center;
-    justify-content: center;
-    margin-left: 5px;
-}
-
-.Hora p {
-    font-size: 50px;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-}
-
-
-#Caja_ULT {
-    height: 100%;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#Segundos {
-    font-size: 40px;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-}
-
-#AMPM {
-    font-size: 25px;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-}
-
-.Contenedor_Reloj {
-    left: 5%;
-}
-
+.Fecha {display: flex; width: 280px; margin-bottom: 3%;
+    height: 50px; background: rgba(191, 44, 228, 0.274);
+    justify-content: center; align-items: center;
+    }
+    
+    .Fecha p {font-size: 23px; color: white; font-family: 'Inconsolata', monospace; }
+    
+    .Hora {
+        display: flex; width: 280px; height: 100px;
+        background: rgba(191, 44, 228, 0.274);
+        align-items: center; justify-content: center;
+    }
+    
+    .Hora p {font-size: 50px; color: white; font-family: 'Inconsolata', monospace; }
+    
+    
+    #Caja_ULT {height: 100%; width: 20%; display: flex;
+    justify-content: center; align-items: center; flex-direction: column; 
+      }
+    
+    #Segundos{font-size: 40px; color: white; font-family: 'Inconsolata', monospace; }
+    
+    #AMPM {font-size: 25px; color: white; font-family: 'Inconsolata', monospace;  }
+    
+    .Contenedor_Reloj { left: 5%; 
+    }
 /*BLOQUEO DE NIVELES*/
 #NIVEL_01 {
     display: block;

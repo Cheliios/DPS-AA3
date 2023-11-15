@@ -5,14 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/Estilos.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/Estilos.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
     <!--iMPORTE UN TIPO DE LETA-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Juegos</title>
 </head>
 
@@ -30,12 +28,9 @@
 
                 </div>
             </div>
-            <section>
-                <h1 class="Nombre">IRON FIST</h1>
-                <h1 class="Texto_Principal">¿LISTO PARA DEFENDER<br>EL PLANETA?</h1>
-            </section>
+            <h1 class="Nombre">IRON FIST</h1>
+            <h1 class="Texto_Principal">¿LISTO PARA DEFENDER<br> EL PLANETA?</h1>
             <button class="Boton" id="Juego" onclick="Mover()">JUGAR</button>
-
         </section>
         <!--SECCION - 3 ------------------------------------------------------------------------------------------------------->
 
@@ -88,17 +83,11 @@
             <h1 class="Titulo_historia" id="Titulo_historia">Todo empezo cuando...</h1>
             <div class="Contenedor_Historia" id="Mensaje">
                 <h3 style="margin-top: -1%;">CAPÍTULO I: NUESTRA SALVACIÓN</h3>
-                <h4>En cierto día, las noticias de todo el mundo anunciaron que muy pronto se acercarían meteoritos de
-                    gran
-                    tamaño a la tierra y que solo era cuestión de horas para que comenzaran a llegar; el resultado de
-                    esto fue inmediato ya que
-                    miles de personas comenzaron a alertarse y a hacer disturbios, en centros comerciales y areas
-                    publicas, para que el gobierno les
-                    diera alguna respuesta; pero el gobierno ya tenía un plan de contingencia, ya que ellos se habían
-                    enterado de la llegada de estos con días de antelación
-                    preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que consistía en los
-                    proyectiles más letales de la tierra y nuestra única salvación
-                </h4>
+                En cierto día, las noticias de todo el mundo anunciaron que muy pronto se acercarían meteoritos de gran
+                tamaño a la tierra y que solo era cuestión de horas para que comenzaran a llegar; el resultado de esto fue inmediato ya que 
+                miles de personas comenzaron a alertarse y a hacer disturbios, en centros comerciales y areas publicas, para que el gobierno les
+                diera alguna respuesta; pero el gobierno ya tenía un plan de contingencia, ya que ellos se habían enterado de la llegada de estos con días de antelación
+                preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que consistía en los proyectiles más letales de la tierra y nuestra única salvación
                 <div class="BOTONES_2">
                     <div class="Boton_preparado" onclick="Mover_3()">
                         ¿Estas preparado?
@@ -364,26 +353,26 @@
 
             </section>
 
-            <div class="Contenedor_LVL Contenedor_LVL_NIVEL3" id="Contenedor_LVL">
-
-                <div class="Contenedor_Reloj">
-                    <!--Desarrollo del reloj-->
-                    <div class="Fecha">
-                        <p id="Dia_Semana"></p>&nbsp;
-                        <p id="dia"></p>&nbsp; <p>de</p>&nbsp;
-                        <p id="mes"></p>&nbsp; <p>del</p>&nbsp;
-                        <p id="año"></p>
+        <div class="Contenedor_LVL">
+            
+            <div class="Contenedor_Reloj">
+                <!--Desarrollo del reloj-->
+                <div class="Fecha">
+                    <p id="Dia_Semana" ></p>&nbsp;
+                    <p id="dia" ></p>&nbsp;
+                    <p id="mes" ></p>&nbsp; <p>del</p>&nbsp;
+                    <p id="año" ></p>
+                </div>
+                
+                <!--Hora-->
+                <div class="Hora">
+                    <p id="Hora"></p>&nbsp;<p>:</p>
+                    <p id="Minutos"></p>&nbsp;<p>:</p>
+                    <div id="Caja_ULT">
+                    <span id="Segundos"></span>
+                    <span id="AMPM"></span>
                     </div>
-
-                    <!--Hora-->
-                    <div class="Hora">
-                        <p id="Hora"></p>&nbsp;<p>:</p>
-                        <p id="Minutos"></p>&nbsp;<p>:</p>
-                        <div id="Caja_ULT">
-                            <span id="Segundos"></span>
-                            <span id="AMPM"></span>
-                        </div>
-                    </div>
+                </div>
                 </div>
 
                 <div class="Nada" id="Nada">
